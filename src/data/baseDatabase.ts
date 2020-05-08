@@ -1,6 +1,7 @@
 import knex from "knex";
+require('dotenv').config();
 
-export abstract class BaseDatabase {
+export class BaseDatabase {
   private connectionData = {
     host: process.env.HOST,
     port: 3306,
@@ -10,7 +11,7 @@ export abstract class BaseDatabase {
   };
 
   protected connection = knex({
-    client: "mysql",
+    client: process.env.CLIENT as string,
     connection: this.connectionData
   });
 }

@@ -6,7 +6,7 @@ import {
   LambdaEvent
 } from "./services/LambdaMiddlewareMapper";
 
-export const handler = async (event: LambdaEvent): Promise<any> => {
+exports.handler = async (event: LambdaEvent): Promise<any> => {
   try {
     const mappedEvent = LambdaMiddlewareMapper.toMiddlewareRequest(event);
     console.log("Event: ", mappedEvent);
