@@ -1,4 +1,5 @@
 import knex from "knex";
+require('dotenv').config();
 
 export abstract class BaseDatabase {
   private connectionData = {
