@@ -24,25 +24,18 @@
 - Recebe um dia (sexta, sábado ou domingo) e retorna todos os shows daquela data (ordenados pelo horário), mostrando somente o nome da banda e o gênero musical principal.
 
 
-## Deploy da Aplicação com FutureTube: :dash:
-
-> https://f4tube-e7be0.web.app
-
-  
-
-  
+   
 
 ## Linguagens e libs utilizadas :books:
 
   
 
-  
-
+ 
 -  [TypeScript](https://www.typescriptlang.org/)
 
   
 
--  [AWS]([https://docs.aws.amazon.com/](https://docs.aws.amazon.com/))
+-  [AWS](https://docs.aws.amazon.com/)
 
 
 
@@ -89,25 +82,14 @@ Execute a aplicação:
   
 ```
 
-yarn start
+npm run start
 
 ```
 
 Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:3000/
 
   
-  ## Como subir a aplicação para AWS :arrow_forward:
-
-ASW Lambda, criar uma funções e subir o arquivo .zip gerado pela aplicação.
-No manipulador de código da função:
-
- ```
-
-presentation/lambda/index.handler
-
-```
-
-
+  
 
 ## Status do projeto :heavy_exclamation_mark:
 
@@ -123,4 +105,4 @@ The [MIT License]() (MIT)
 
   
 
-Copyright :copyright: 2020 - FutureTube
+Copyright :copyright: 2020 - f4ma
